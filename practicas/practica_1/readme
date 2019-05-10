@@ -1,0 +1,32 @@
+
+// motores de puertas - estado ON/OFF
+
+void Relays (char , char );
+
+        Relays (1 , OFF);             // P2.0    CERRANDO
+    	Relays (1 , ON);
+    		   
+    	Relays (2 , ON);              // P0.23   ABRIENDO
+    	Relays (2 , OFF);
+
+// sensor de puerta (adentro y afuera)
+
+int Dig_Inputs (char);
+
+    	sensor_afuera = Dig_Inputs(1);          // P4.29   SENSOR DE PUERTA AFUERA
+    	sensor_adentro = Dig_Inputs(2);          // P2.11   SENSOR DE PUERTA ADENTRO
+
+// fines de carrera
+
+int Teclado ( char );
+
+    	final_cerrado = Teclado(3);          // P2.13   SW10  FIN DE CARRERA CERRADO
+    	final_abierto = Teclado(4);          // P1.16   SW13  FIN DE CARRERA ABIERTO
+    	
+void set_timer(int , uint32_t );
+
+int is_timer_end(int tt);    	
+    	
+        set_timer(0,10);               // timer 0 configurado para 10 segundos
+ 
+        is_timer_end(0);               // consulta si el timer 0 llego a timeout
