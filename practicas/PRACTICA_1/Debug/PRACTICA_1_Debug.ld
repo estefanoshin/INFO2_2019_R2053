@@ -5,11 +5,11 @@
  * Generated linker script file for LPC1769
  * Created from linkscript.ldt by FMCreateLinkLibraries
  * Using Freemarker v2.3.23
- * LPCXpresso v8.2.2 [Build 650] [2016-09-09]  on May 10, 2019 8:15:10 PM
+ * LPCXpresso v8.2.2 [Build 650] [2016-09-09]  on May 10, 2019 9:11:10 PM
  */
 
-INCLUDE "practica_1_Debug_library.ld"
-INCLUDE "practica_1_Debug_memory.ld"
+INCLUDE "PRACTICA_1_Debug_library.ld"
+INCLUDE "PRACTICA_1_Debug_memory.ld"
 
 ENTRY(ResetISR)
 
