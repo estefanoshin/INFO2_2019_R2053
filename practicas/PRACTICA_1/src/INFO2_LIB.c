@@ -1,12 +1,12 @@
 /*
-===============================================================================
+ ===============================================================================
  Name        : INFO2_LIB.c
  Author      : $(author)
  Version     :
  Copyright   : $(copyright)
  Description : main definition
-===============================================================================
-*/
+ ===============================================================================
+ */
 
 #ifdef __USE_CMSIS
 #include "LPC17xx.h"
@@ -22,61 +22,89 @@
 
 #include <xyz_base.h>
 
-// TODO: insert other include files here
+#define ON 1
+#define OFF 0
+#define TRUE 1
+#define FALSE 0
 
-// TODO: insert other definitions and declarations here
+#define TIMER 0
+#define TIEMPO_SEGUNDOS 10
+
+uint8_t MOTOR_ABRIR;
+uint8_t MOTOR_CERRAR;
+
+enum ESTADOS
+{
+	CERRADO, ABIERTO, ABRIENDO, CERRANDO
+};
+
+int abierto()
+{
+	MOTOR_ABRIR = OFF;
+	MOTOR_CERRAR = OFF;
+	return Teclado(4);
+}
+
+int cerrado()
+{
+	MOTOR_ABRIR = OFF;
+	MOTOR_CERRAR = OFF;
+	return Teclado(3);
+}
+
+void init()
+{
+	set_timer(TIMER, TIEMPO_SEGUNDOS);
+	cerrado();
+}
+
+int sensor_salida()
+{
+	return Dig_Inputs(1);
+}
+
+int sensor_entrada()
+{
+	return Dig_Inputs(2);
+}
+
+void abriendo(int state)
+{
+	MOTOR_CERRAR = OFF;
+	MOTOR_ABRIR = ON;
+	Relays(2, state);
+}
+
+void cerrando(int state)
+{
+	MOTOR_ABRIR = OFF;
+	MOTOR_CERRAR = ON;
+	Relays(1, state);
+}
 
 int main(void)
 {
-    // Force the counter to be placed into memory
-    volatile static int i = 0 ;
+	init();
+	cerrado();
 
-    int8_t final0 = 0, final1 =0, final2 = 0,final3 = 0;
-    int8_t in1 = 0, in2 = 0;
+	while (1) {
 
-    // ver de inicializar io
+		if(sensor_entrada() == ON || sensor_salida() == ON)
+		{
+			abriendo(ON);
+		}
 
-    Inicializar_io();
+		if(sensor_entrada() == OFF && sensor_salida() == OFF)
+		{
+			cerrando(ON);
+		}
 
-    InitTimer();
+		if(abierto() == TRUE && (sensor_entrada() == ON || sensor_salida() == ON) && is_timer_end(TIMER) == TRUE)
+		{
+			cerrando(ON);
+		}
 
-    set_timer(0,10);
+	}
 
-    // Enter an infinite loop, just incrementing a counter
-    while(1)
-    {
-    	if((final0=is_timer_end(0)))
-            final0 = 4;
-
-    	final0 = Teclado(1);          // P0.18
-    	final1 = Teclado(2);          // P0.11
-    	final2 = Teclado(3);          // P2.13
-    	final3 = Teclado(4);          // P1.16
-
-    	in1 = Dig_Inputs(1);          // P4.29
-    	in2 = Dig_Inputs(2);          // P2.11
-
-    	Relays (0 , ON );             // P2.0
-    	Relays (0 , OFF);
-    	Relays (1 , ON);              // P0.23
-    	Relays (1 , OFF);
-    	Relays (2 , ON );             // P0.21
-    	Relays (2 , OFF );
-/*
-    	Led (1, OFF);                 // P2.1
-    	Led (1, ON);
-    	Led (2, OFF);                 // P2.2
-    	Led (2, ON);
-    	Led (3, OFF);                 // P2.3
-*/
-        if(is_timer_end(0))
-        {
-    	  Led (0, OFF);
-    	  Led (1, OFF);
-    	  Led (2, OFF);
-        }
-
-    	i++ ;
-    }
-    return 0 ;
+	return 0;
 }
