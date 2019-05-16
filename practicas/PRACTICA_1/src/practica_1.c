@@ -41,17 +41,17 @@
 #define INIT_TIMER(time) set_timer(0,time)
 #define IS_TIMEOUT is_timer_end(0)
 
-enum STATES {ABIERTO, CERRADO, ABRIENDO, CERRANDO};
+typedef enum STATES {ABIERTO, CERRADO, ABRIENDO, CERRANDO} estados;
 
 int main(void)
 {
 	INIT_TIMER(TIMER_SECONDS);
 	CERRAR(ON);
-	static STATES estado = CERRADO;
+	static estados estado = CERRADO;
 
     while(1)
     {
-    	switch (estados)
+    	switch (estado)
     		    	{
     					case ABIERTO:
     						ABRIR(OFF);
