@@ -1,3 +1,6 @@
 build*/
 .metadata/
 Debug/
+.project*
+.cproject*
+.settings/
