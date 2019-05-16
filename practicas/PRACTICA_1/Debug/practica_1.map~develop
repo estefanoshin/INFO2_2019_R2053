@@ -1,0 +1,343 @@
+Archive member included to satisfy reference by file (symbol)
+
+C:\Users\eshin\Desktop\INFO2_2019_R2053\practicas\practica_1\lib\libLIBRE.a(io.o)
+                              ./src/practica_1.o (Relays)
+C:\Users\eshin\Desktop\INFO2_2019_R2053\practicas\practica_1\lib\libLIBRE.a(timer.o)
+                              ./src/practica_1.o (set_timer)
+c:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(__weak__main.o)
+                              ./src/cr_startup_lpc175x_6x.o (__main)
+
+Discarded input sections
+
+ .group         0x00000000        0x8 ./src/cr_startup_lpc175x_6x.o
+ .text          0x00000000        0x0 ./src/cr_startup_lpc175x_6x.o
+ .data          0x00000000        0x0 ./src/cr_startup_lpc175x_6x.o
+ .bss           0x00000000        0x0 ./src/cr_startup_lpc175x_6x.o
+ .group         0x00000000        0x8 ./src/crp.o
+ .group         0x00000000        0x8 ./src/crp.o
+ .text          0x00000000        0x0 ./src/crp.o
+ .data          0x00000000        0x0 ./src/crp.o
+ .bss           0x00000000        0x0 ./src/crp.o
+ .crp           0x00000000        0x4 ./src/crp.o
+ .debug_info    0x00000000       0x3f ./src/crp.o
+ .debug_abbrev  0x00000000       0x36 ./src/crp.o
+ .debug_aranges
+                0x00000000       0x18 ./src/crp.o
+ .debug_macro   0x00000000       0x1a ./src/crp.o
+ .debug_macro   0x00000000      0x886 ./src/crp.o
+ .debug_macro   0x00000000       0x34 ./src/crp.o
+ .debug_line    0x00000000       0x78 ./src/crp.o
+ .debug_str     0x00000000     0x25b1 ./src/crp.o
+ .comment       0x00000000       0x6f ./src/crp.o
+ .ARM.attributes
+                0x00000000       0x33 ./src/crp.o
+ .group         0x00000000        0x8 ./src/practica_1.o
+ .group         0x00000000        0x8 ./src/practica_1.o
+ .group         0x00000000        0x8 ./src/practica_1.o
+ .group         0x00000000        0x8 ./src/practica_1.o
+ .group         0x00000000        0x8 ./src/practica_1.o
+ .group         0x00000000        0x8 ./src/practica_1.o
+ .group         0x00000000        0x8 ./src/practica_1.o
+ .group         0x00000000        0x8 ./src/practica_1.o
+ .group         0x00000000        0x8 ./src/practica_1.o
+ .text          0x00000000        0x0 ./src/practica_1.o
+ .data          0x00000000        0x0 ./src/practica_1.o
+ .bss           0x00000000        0x0 ./src/practica_1.o
+ .debug_macro   0x00000000      0x886 ./src/practica_1.o
+ .text          0x00000000        0x0 C:\Users\eshin\Desktop\INFO2_2019_R2053\practicas\practica_1\lib\libLIBRE.a(io.o)
+ .data          0x00000000        0x0 C:\Users\eshin\Desktop\INFO2_2019_R2053\practicas\practica_1\lib\libLIBRE.a(io.o)
+ .bss           0x00000000        0x0 C:\Users\eshin\Desktop\INFO2_2019_R2053\practicas\practica_1\lib\libLIBRE.a(io.o)
+ .text.Led      0x00000000       0x38 C:\Users\eshin\Desktop\INFO2_2019_R2053\practicas\practica_1\lib\libLIBRE.a(io.o)
+ .text.Dig_Inputs
+                0x00000000       0x2c C:\Users\eshin\Desktop\INFO2_2019_R2053\practicas\practica_1\lib\libLIBRE.a(io.o)
+ .text.Teclado  0x00000000       0x54 C:\Users\eshin\Desktop\INFO2_2019_R2053\practicas\practica_1\lib\libLIBRE.a(io.o)
+ .text.Inic_Test
+                0x00000000       0x7c C:\Users\eshin\Desktop\INFO2_2019_R2053\practicas\practica_1\lib\libLIBRE.a(io.o)
+ .text.Inic_Teclado_BB
+                0x00000000       0x7c C:\Users\eshin\Desktop\INFO2_2019_R2053\practicas\practica_1\lib\libLIBRE.a(io.o)
+ .text.Inic_Relays
+                0x00000000       0x6c C:\Users\eshin\Desktop\INFO2_2019_R2053\practicas\practica_1\lib\libLIBRE.a(io.o)
+ .text.Inic_Leds
+                0x00000000       0x40 C:\Users\eshin\Desktop\INFO2_2019_R2053\practicas\practica_1\lib\libLIBRE.a(io.o)
+ .text.Inic_Entradas
+                0x00000000       0x58 C:\Users\eshin\Desktop\INFO2_2019_R2053\practicas\practica_1\lib\libLIBRE.a(io.o)
+ .text.Inicializar_io
+                0x00000000       0x64 C:\Users\eshin\Desktop\INFO2_2019_R2053\practicas\practica_1\lib\libLIBRE.a(io.o)
+ .text          0x00000000        0x0 C:\Users\eshin\Desktop\INFO2_2019_R2053\practicas\practica_1\lib\libLIBRE.a(timer.o)
+ .data          0x00000000        0x0 C:\Users\eshin\Desktop\INFO2_2019_R2053\practicas\practica_1\lib\libLIBRE.a(timer.o)
+ .bss           0x00000000        0x0 C:\Users\eshin\Desktop\INFO2_2019_R2053\practicas\practica_1\lib\libLIBRE.a(timer.o)
+ .text.is_timer_end
+                0x00000000       0x28 C:\Users\eshin\Desktop\INFO2_2019_R2053\practicas\practica_1\lib\libLIBRE.a(timer.o)
+ .text.InitPLL  0x00000000       0xe4 C:\Users\eshin\Desktop\INFO2_2019_R2053\practicas\practica_1\lib\libLIBRE.a(timer.o)
+ .text.InitTimer
+                0x00000000       0x30 C:\Users\eshin\Desktop\INFO2_2019_R2053\practicas\practica_1\lib\libLIBRE.a(timer.o)
+ .text          0x00000000        0x0 c:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(__weak__main.o)
+ .data          0x00000000        0x0 c:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(__weak__main.o)
+ .bss           0x00000000        0x0 c:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(__weak__main.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+MFlash512        0x00000000         0x00080000         xr
+RamLoc32         0x10000000         0x00008000         xrw
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD ./src/cr_startup_lpc175x_6x.o
+LOAD ./src/crp.o
+LOAD ./src/practica_1.o
+LOAD C:\Users\eshin\Desktop\INFO2_2019_R2053\practicas\practica_1\lib\libLIBRE.a
+START GROUP
+LOAD c:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a
+LOAD c:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m\libcr_eabihelpers.a
+END GROUP
+                0x00000000                __base_MFlash512 = 0x0
+                0x00000000                __base_Flash = 0x0
+                0x00080000                __top_MFlash512 = 0x80000
+                0x00080000                __top_Flash = 0x80000
+                0x10000000                __base_RamLoc32 = 0x10000000
+                0x10000000                __base_RAM = 0x10000000
+                0x10008000                __top_RamLoc32 = 0x10008000
+                0x10008000                __top_RAM = 0x10008000
+
+.text           0x00000000      0x2c4
+ FILL mask 0xff
+                0x00000000                __vectors_start__ = ABSOLUTE (.)
+ *(.isr_vector)
+ .isr_vector    0x00000000       0xcc ./src/cr_startup_lpc175x_6x.o
+                0x00000000                g_pfnVectors
+                0x000000cc                . = ALIGN (0x4)
+                0x000000cc                __section_table_start = .
+                0x000000cc                __data_section_table = .
+                0x000000cc        0x4 LONG 0x2c4 LOADADDR (.data)
+                0x000000d0        0x4 LONG 0x10000000 ADDR (.data)
+                0x000000d4        0x4 LONG 0x4 SIZEOF (.data)
+                0x000000d8                __data_section_table_end = .
+                0x000000d8                __bss_section_table = .
+                0x000000d8        0x4 LONG 0x10000004 ADDR (.bss)
+                0x000000dc        0x4 LONG 0x14 SIZEOF (.bss)
+                0x000000e0                __bss_section_table_end = .
+                0x000000e0                __section_table_end = .
+ *(.after_vectors*)
+ .after_vectors
+                0x000000e0      0x140 ./src/cr_startup_lpc175x_6x.o
+                0x000000e0                data_init
+                0x00000124                bss_init
+                0x0000015c                ResetISR
+                0x000001d0                NMI_Handler
+                0x000001d8                HardFault_Handler
+                0x000001e0                MemManage_Handler
+                0x000001e8                BusFault_Handler
+                0x000001f0                UsageFault_Handler
+                0x000001f8                SVC_Handler
+                0x00000200                DebugMon_Handler
+                0x00000208                PendSV_Handler
+                0x00000218                UART1_IRQHandler
+                0x00000218                EINT3_IRQHandler
+                0x00000218                CANActivity_IRQHandler
+                0x00000218                TIMER3_IRQHandler
+                0x00000218                UART0_IRQHandler
+                0x00000218                USBActivity_IRQHandler
+                0x00000218                EINT2_IRQHandler
+                0x00000218                IntDefaultHandler
+                0x00000218                PLL0_IRQHandler
+                0x00000218                CAN_IRQHandler
+                0x00000218                I2C0_IRQHandler
+                0x00000218                SSP0_IRQHandler
+                0x00000218                I2C1_IRQHandler
+                0x00000218                I2C2_IRQHandler
+                0x00000218                RTC_IRQHandler
+                0x00000218                TIMER0_IRQHandler
+                0x00000218                SPI_IRQHandler
+                0x00000218                RIT_IRQHandler
+                0x00000218                EINT1_IRQHandler
+                0x00000218                TIMER1_IRQHandler
+                0x00000218                UART2_IRQHandler
+                0x00000218                ADC_IRQHandler
+                0x00000218                SSP1_IRQHandler
+                0x00000218                USB_IRQHandler
+                0x00000218                BOD_IRQHandler
+                0x00000218                PWM1_IRQHandler
+                0x00000218                WDT_IRQHandler
+                0x00000218                I2S_IRQHandler
+                0x00000218                QEI_IRQHandler
+                0x00000218                EINT0_IRQHandler
+                0x00000218                PLL1_IRQHandler
+                0x00000218                DMA_IRQHandler
+                0x00000218                TIMER2_IRQHandler
+                0x00000218                UART3_IRQHandler
+                0x00000218                MCPWM_IRQHandler
+                0x00000218                ENET_IRQHandler
+ *(.text*)
+ .text.main     0x00000220       0x18 ./src/practica_1.o
+                0x00000220                main
+ .text.Relays   0x00000238       0x3c C:\Users\eshin\Desktop\INFO2_2019_R2053\practicas\practica_1\lib\libLIBRE.a(io.o)
+                0x00000238                Relays
+ .text.set_timer
+                0x00000274       0x18 C:\Users\eshin\Desktop\INFO2_2019_R2053\practicas\practica_1\lib\libLIBRE.a(timer.o)
+                0x00000274                set_timer
+ .text.SysTick_Handler
+                0x0000028c       0x34 C:\Users\eshin\Desktop\INFO2_2019_R2053\practicas\practica_1\lib\libLIBRE.a(timer.o)
+                0x0000028c                SysTick_Handler
+ .text.__weak_main
+                0x000002c0        0x4 c:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(__weak__main.o)
+                0x000002c0                __weak_main
+                0x000002c0                __main
+ *(.rodata .rodata.* .constdata .constdata.*)
+                0x000002c4                . = ALIGN (0x4)
+
+.glue_7         0x000002c4        0x0
+ .glue_7        0x000002c4        0x0 linker stubs
+
+.glue_7t        0x000002c4        0x0
+ .glue_7t       0x000002c4        0x0 linker stubs
+
+.vfp11_veneer   0x000002c4        0x0
+ .vfp11_veneer  0x000002c4        0x0 linker stubs
+
+.v4_bx          0x000002c4        0x0
+ .v4_bx         0x000002c4        0x0 linker stubs
+
+.iplt           0x000002c4        0x0
+ .iplt          0x000002c4        0x0 ./src/cr_startup_lpc175x_6x.o
+
+.rel.dyn        0x000002c4        0x0
+ .rel.iplt      0x000002c4        0x0 ./src/cr_startup_lpc175x_6x.o
+
+.ARM.extab
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+                0x000002c4                __exidx_start = .
+
+.ARM.exidx
+ *(.ARM.exidx* .gnu.linkonce.armexidx.*)
+                0x000002c4                __exidx_end = .
+                0x000002c4                _etext = .
+
+.uninit_RESERVED
+                0x10000000        0x0
+ *(.bss.$RESERVED*)
+                0x10000000                . = ALIGN (0x4)
+                0x10000000                _end_uninit_RESERVED = .
+
+.data           0x10000000        0x4 load address 0x000002c4
+ FILL mask 0xff
+                0x10000000                _data = .
+ *(vtable)
+ *(.ramfunc*)
+ *(.data*)
+ .data.xx.4076  0x10000000        0x4 C:\Users\eshin\Desktop\INFO2_2019_R2053\practicas\practica_1\lib\libLIBRE.a(timer.o)
+                0x10000004                . = ALIGN (0x4)
+                0x10000004                _edata = .
+
+.igot.plt       0x10000004        0x0 load address 0x000002c8
+ .igot.plt      0x10000004        0x0 ./src/cr_startup_lpc175x_6x.o
+
+.bss            0x10000004       0x14 load address 0x000002c8
+                0x10000004                _bss = .
+ *(.bss*)
+ .bss.TT_st     0x10000004        0x4 C:\Users\eshin\Desktop\INFO2_2019_R2053\practicas\practica_1\lib\libLIBRE.a(timer.o)
+ .bss.TT        0x10000008       0x10 C:\Users\eshin\Desktop\INFO2_2019_R2053\practicas\practica_1\lib\libLIBRE.a(timer.o)
+ *(COMMON)
+                0x10000018                . = ALIGN (0x4)
+                0x10000018                _ebss = .
+                [!provide]                PROVIDE (end, .)
+
+.noinit         0x10000018        0x0 load address 0x000002c8
+                0x10000018                _noinit = .
+ *(.noinit*)
+                0x10000018                . = ALIGN (0x4)
+                0x10000018                _end_noinit = .
+                [!provide]                PROVIDE (_pvHeapStart, DEFINED (__user_heap_base)?__user_heap_base:.)
+                0x10008000                PROVIDE (_vStackTop, DEFINED (__user_stack_top)?__user_stack_top:(__top_RamLoc32 - 0x0))
+                0xefff753e                PROVIDE (__valid_user_code_checksum, (0x0 - ((((((_vStackTop + (ResetISR + 0x1)) + (NMI_Handler + 0x1)) + (HardFault_Handler + 0x1)) + (DEFINED (MemManage_Handler)?MemManage_Handler:0x0 + 0x1)) + (DEFINED (BusFault_Handler)?BusFault_Handler:0x0 + 0x1)) + (DEFINED (UsageFault_Handler)?UsageFault_Handler:0x0 + 0x1))))
+OUTPUT(practica_1.axf elf32-littlearm)
+
+.debug_info     0x00000000      0xf1d
+ .debug_info    0x00000000      0x253 ./src/cr_startup_lpc175x_6x.o
+ .debug_info    0x00000253       0x93 ./src/practica_1.o
+ .debug_info    0x000002e6      0x9c4 C:\Users\eshin\Desktop\INFO2_2019_R2053\practicas\practica_1\lib\libLIBRE.a(io.o)
+ .debug_info    0x00000caa      0x273 C:\Users\eshin\Desktop\INFO2_2019_R2053\practicas\practica_1\lib\libLIBRE.a(timer.o)
+
+.debug_abbrev   0x00000000      0x43c
+ .debug_abbrev  0x00000000       0xf5 ./src/cr_startup_lpc175x_6x.o
+ .debug_abbrev  0x000000f5       0x47 ./src/practica_1.o
+ .debug_abbrev  0x0000013c      0x17d C:\Users\eshin\Desktop\INFO2_2019_R2053\practicas\practica_1\lib\libLIBRE.a(io.o)
+ .debug_abbrev  0x000002b9      0x183 C:\Users\eshin\Desktop\INFO2_2019_R2053\practicas\practica_1\lib\libLIBRE.a(timer.o)
+
+.debug_aranges  0x00000000      0x148
+ .debug_aranges
+                0x00000000       0x80 ./src/cr_startup_lpc175x_6x.o
+ .debug_aranges
+                0x00000080       0x20 ./src/practica_1.o
+ .debug_aranges
+                0x000000a0       0x68 C:\Users\eshin\Desktop\INFO2_2019_R2053\practicas\practica_1\lib\libLIBRE.a(io.o)
+ .debug_aranges
+                0x00000108       0x40 C:\Users\eshin\Desktop\INFO2_2019_R2053\practicas\practica_1\lib\libLIBRE.a(timer.o)
+
+.debug_ranges   0x00000000      0x108
+ .debug_ranges  0x00000000       0x70 ./src/cr_startup_lpc175x_6x.o
+ .debug_ranges  0x00000070       0x10 ./src/practica_1.o
+ .debug_ranges  0x00000080       0x58 C:\Users\eshin\Desktop\INFO2_2019_R2053\practicas\practica_1\lib\libLIBRE.a(io.o)
+ .debug_ranges  0x000000d8       0x30 C:\Users\eshin\Desktop\INFO2_2019_R2053\practicas\practica_1\lib\libLIBRE.a(timer.o)
+
+.debug_macro    0x00000000     0x1260
+ .debug_macro   0x00000000       0x1d ./src/cr_startup_lpc175x_6x.o
+ .debug_macro   0x0000001d      0x886 ./src/cr_startup_lpc175x_6x.o
+ .debug_macro   0x000008a3       0xe6 ./src/practica_1.o
+ .debug_macro   0x00000989       0x82 ./src/practica_1.o
+ .debug_macro   0x00000a0b       0x10 ./src/practica_1.o
+ .debug_macro   0x00000a1b      0x12d ./src/practica_1.o
+ .debug_macro   0x00000b48       0xa0 ./src/practica_1.o
+ .debug_macro   0x00000be8      0x5b2 ./src/practica_1.o
+ .debug_macro   0x0000119a       0x58 ./src/practica_1.o
+ .debug_macro   0x000011f2       0x1c ./src/practica_1.o
+ .debug_macro   0x0000120e       0x52 ./src/practica_1.o
+
+.debug_line     0x00000000      0x60c
+ .debug_line    0x00000000       0xd4 ./src/cr_startup_lpc175x_6x.o
+ .debug_line    0x000000d4      0x1f0 ./src/practica_1.o
+ .debug_line    0x000002c4      0x1bf C:\Users\eshin\Desktop\INFO2_2019_R2053\practicas\practica_1\lib\libLIBRE.a(io.o)
+ .debug_line    0x00000483      0x189 C:\Users\eshin\Desktop\INFO2_2019_R2053\practicas\practica_1\lib\libLIBRE.a(timer.o)
+
+.debug_str      0x00000000     0x4c47
+ .debug_str     0x00000000     0x2686 ./src/cr_startup_lpc175x_6x.o
+                               0x2699 (size before relaxing)
+ .debug_str     0x00002686     0x2109 ./src/practica_1.o
+                               0x4654 (size before relaxing)
+ .debug_str     0x0000478f      0x3fa C:\Users\eshin\Desktop\INFO2_2019_R2053\practicas\practica_1\lib\libLIBRE.a(io.o)
+                                0x488 (size before relaxing)
+ .debug_str     0x00004b89       0xbe C:\Users\eshin\Desktop\INFO2_2019_R2053\practicas\practica_1\lib\libLIBRE.a(timer.o)
+                                0x271 (size before relaxing)
+
+.comment        0x00000000       0xdc
+ .comment       0x00000000       0x6e ./src/cr_startup_lpc175x_6x.o
+                                 0x6f (size before relaxing)
+ .comment       0x0000006e       0x6f ./src/practica_1.o
+ .comment       0x0000006e       0x6f C:\Users\eshin\Desktop\INFO2_2019_R2053\practicas\practica_1\lib\libLIBRE.a(io.o)
+ .comment       0x0000006e       0x6f C:\Users\eshin\Desktop\INFO2_2019_R2053\practicas\practica_1\lib\libLIBRE.a(timer.o)
+ .comment       0x0000006e       0x6e c:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(__weak__main.o)
+                                 0x6f (size before relaxing)
+
+.ARM.attributes
+                0x00000000       0x33
+ .ARM.attributes
+                0x00000000       0x33 ./src/cr_startup_lpc175x_6x.o
+ .ARM.attributes
+                0x00000033       0x33 ./src/practica_1.o
+ .ARM.attributes
+                0x00000066       0x33 C:\Users\eshin\Desktop\INFO2_2019_R2053\practicas\practica_1\lib\libLIBRE.a(io.o)
+ .ARM.attributes
+                0x00000099       0x33 C:\Users\eshin\Desktop\INFO2_2019_R2053\practicas\practica_1\lib\libLIBRE.a(timer.o)
+ .ARM.attributes
+                0x000000cc       0x33 c:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(__weak__main.o)
+
+.debug_frame    0x00000000      0x2c4
+ .debug_frame   0x00000000      0x170 ./src/cr_startup_lpc175x_6x.o
+ .debug_frame   0x00000170       0x2c ./src/practica_1.o
+ .debug_frame   0x0000019c       0xb8 C:\Users\eshin\Desktop\INFO2_2019_R2053\practicas\practica_1\lib\libLIBRE.a(io.o)
+ .debug_frame   0x00000254       0x70 C:\Users\eshin\Desktop\INFO2_2019_R2053\practicas\practica_1\lib\libLIBRE.a(timer.o)
+
+.debug_loc      0x00000000      0x297
+ .debug_loc     0x00000000      0x231 C:\Users\eshin\Desktop\INFO2_2019_R2053\practicas\practica_1\lib\libLIBRE.a(io.o)
+ .debug_loc     0x00000231       0x66 C:\Users\eshin\Desktop\INFO2_2019_R2053\practicas\practica_1\lib\libLIBRE.a(timer.o)
