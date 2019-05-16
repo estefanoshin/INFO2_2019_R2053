@@ -46,8 +46,8 @@ typedef enum STATES {ABIERTO, CERRADO, ABRIENDO, CERRANDO} estados;
 int main(void)
 {
 	INIT_TIMER(TIMER_SECONDS);
-	CERRAR(ON);
-	static estados estado = CERRADO;
+
+	static estados estado;
 
     while(1)
     {
@@ -88,7 +88,9 @@ int main(void)
     						break;
 
     					default:
-    						//TODO ...
+							estado = CERRANDO;
+							if(IS_FIN_CARRERA_CERRADO == TRUE)
+								estado = CERRADO;
     						break;
     				}
     }
