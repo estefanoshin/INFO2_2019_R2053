@@ -3,10 +3,10 @@
 
 void Relays (char , char );
 
-        Relays (1 , OFF);             // P2.0    CERRANDO
+        Relays (1 , OFF);             // P2.0    CERRANDO - ON/OFF
     	Relays (1 , ON);
     		   
-    	Relays (2 , ON);              // P0.23   ABRIENDO
+    	Relays (2 , ON);              // P0.23   ABRIENDO - ON/OFF
     	Relays (2 , OFF);
 
 // sensor de puerta (adentro y afuera)
